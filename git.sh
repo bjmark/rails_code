@@ -24,3 +24,8 @@ git rm log/\*.log
 git mv readme.txt readme
 
 git log
+
+#Changing Your Last Commit
+git commit -m 'initial commit'
+git add forgotten_file
+git commit --amend
